@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "greetings",
+      "patterns": ["Hi", "How are you","How is it going?", "Is anyone there?", "Hello", "Good day",
+                    "Hello", "Wassup ?", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?",
+                    "Hey! What can I do for you ?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "stocks",
+      "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+      "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+      "context_set": ""
+    },
+    {"tag":"name",
+        "patterns":["what is your name", "what should I call you"],
+        "responses":["You can call me Neural!.", "I'm Neural!"]
+    },
+    {"tag":"کتێب",
+        "patterns":["کتێب چییە ؟", "کتێب لە چی دروست کراوە ؟"],
+        "responses":["کتێب شتێکە لە کتێبخانە هەیە :).", "کتێب لە دار دروست کراوە"]
+    },
+    {"tag":"حەسەن زیرەک",
+        "patterns":["چی گۆرانبێژێک وەک حەسەن زیرەکە ؟", "تۆ كێی ؟"],
+        "responses":["ناڤید زەردی", "حەسەن زیرەک لە داهاتووە"]
+    },
+    {"tag":"خودا",
+        "patterns":["خودا لە چی دروستکراوە ؟", "خودا مرۆڤی خۆش ئەوێت ؟"],
+        "responses":["هیچ بیرۆکەیەکم نیە  هاوڕێ 🤔", "🫠 بە گشتی ئەتوانین بلێین بەڵێ"]}
+    
+  ]
+}
